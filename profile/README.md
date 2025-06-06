@@ -56,7 +56,7 @@ Integrantes:\
 -Matheus Moledo Fonseca Vasconcelos\
 -Michael Douglas Santos Costa\
 -Raquel Nazaré Belfort Costa\
--Thiago Conrado Martins\
+-Thiago Conrado Martins
 
 ## Alterações
   Criação da página de feed com as funcionalidades de buscar postagens e inserir postagens.\
