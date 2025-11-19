@@ -56,7 +56,7 @@ Integrantes:\
 -Matheus Moledo Fonseca Vasconcelos\
 -Michael Douglas Santos Costa\
 -Raquel Nazaré Belfort Costa\
--Thiago Conrado Martins\
+-Thiago Conrado Martins
 
 ## Alterações
   Criação da página de feed com as funcionalidades de buscar postagens e inserir postagens.\
@@ -81,7 +81,7 @@ Integrantes:\
 -Matheus Moledo Fonseca Vasconcelos\
 -Michael Douglas Santos Costa\
 -Raquel Nazaré Belfort Costa\
--Thiago Conrado Martins\
+-Thiago Conrado Martins
 
 Este projeto implementa a criação da estrutura de autenticação segura (Cadastro e Login) e conexão com o banco de dados local.
 
@@ -90,9 +90,9 @@ Criação da a arquitetura de autenticação completa, essencial para a seguran�
 -Entidade de Usuário: Criação da estrutura de usuários (User) no Doctrine (Back-end) com campos obrigatórios (email_user, password, etc.).\
 -Cadastro (/sign-up): Implementação de uma API (POST /api/users/create_user) que utiliza o Symfony Password Hasher para criptografar senhas antes de salvar no banco de dados.\
 -Login (/sign-in): Implementação de uma API de login segura (POST /api/users/login) que busca o usuário por e-mail e verifica a senha (texto plano) contra o hash armazenado no banco de dados, utilizando o PasswordHasher.\
--Gerenciamento de Estado Global (Contexto): Gerenciamento dos dados do usuário logado na página persistindo durante a navegação (entre as páginas de Feed, Perfil, etc.). O UserContext, um Contexto React, foi estabelecido para gerenciar o estado global user e setUser. Após o login ou cadastro, o userId é persistido no localStorage.\
+-Gerenciamento de Estado Global (Contexto): Gerenciamento dos dados do usuário logado na página persistindo durante a navegação (entre as páginas de Feed, Perfil, etc.). O UserContext, um Contexto React, foi estabelecido para gerenciar o estado global user e setUser. Após o login ou cadastro, o userId é persistido no localStorage.
 
 ## Sugestões de Melhoria Futuras
 -Inserção de Novas Funcionalidades nas Postagens: Exemplo: editar, excluir, curtir, comentar, compartilhar.\
 -Criação de Página do perfil com as funcionalidades de edição dos dados de usuário e inserção de imagem como foto de perfil.\
--Inserção de validações na página de cadastro de usuário (exemplo: verificação de força da senha, confirmação de senha, confirmação de email, verificação de cpf já existente).\
+-Inserção de validações na página de cadastro de usuário (exemplo: verificação de força da senha, confirmação de senha, confirmação de email, verificação de cpf já existente).
